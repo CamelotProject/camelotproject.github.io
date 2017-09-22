@@ -1,0 +1,4 @@
+/composer.lock
+/.couscous/
+/node_modules/
+/vendor/
