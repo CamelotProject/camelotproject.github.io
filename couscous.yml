@@ -1,0 +1,31 @@
+#github:
+#    user: myself
+#    repo: my-project
+
+include:
+    - pages
+
+exclude:
+    - %gitignore%
+
+cname: camelotproject.github.io
+
+branch: master
+
+baseUrl: https://camelotproject.github.io
+
+template:
+    directory: template
+
+title: Camelot Project
+subTitle: Welcome to Avalon
+
+menu:
+    items:
+        home:
+            text: Home page
+            relativeUrl: index.html
+#        foo:
+#            text: Another link
+#            # Or absolute urls
+#            absoluteUrl: https://example.com
